@@ -1,4 +1,4 @@
-# kube-ctf-auth
+# CTFd kube-ctf Plugin
 
 > [!IMPORTANT]
 > **This repository is a fork of [DownUnderCTFs `ctfd-kubectf-plugin` repository](https://github.com/DownUnderCTF/ctfd-kubectf-plugin), modified to fit into the CTF Pilot ecosystem.**
