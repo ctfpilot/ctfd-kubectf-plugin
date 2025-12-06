@@ -14,6 +14,17 @@ It acts as the main system handling instanced challenges within CTFd, and commun
 3. Run CTFd.
 4. Configure the host and secret through the admin interface.
 
+### Theme customization
+
+In order to have the plugin's frontend components working properly, you need to have the following in the `challenge.html` file of your CTFd theme:
+
+```html
+{% block kubectf_info %}
+{% endblock %}
+```
+
+Usually, this would be placed beneath the `challenge.connection_info` block.
+
 ## Authors
 
 This plugin was originally developed by **DownUnderCTF**. It has since been modified to fit into the CTF Pilot ecosystem.
